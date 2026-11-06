@@ -1,0 +1,60 @@
+$date
+   Fri Nov  6 21:30:45 2026
+$end
+
+$version
+  2026.1
+  $dumpfile ("and_gate.vcd") 
+$end
+
+$timescale
+  1ps
+$end
+
+$scope module tb_and_gate $end
+$var reg 1 ! a $end
+$var reg 1 " b $end
+$var wire 1 # y $end
+$var reg 1 $ expected $end
+$var integer 32 % i [31:0] $end
+$var integer 32 & error [31:0] $end
+$scope module dut $end
+$var wire 1 ' a $end
+$var wire 1 ( b $end
+$var reg 1 ) y $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+
+#0
+$dumpvars
+0!
+0"
+0#
+0$
+b0 %
+b0 &
+0'
+0(
+0)
+$end
+
+#10000
+1"
+b1 %
+1(
+
+#20000
+1!
+0"
+b10 %
+1'
+0(
+
+#30000
+1"
+1#
+1$
+b11 %
+1(
+1)
