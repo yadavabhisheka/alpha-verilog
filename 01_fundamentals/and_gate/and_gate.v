@@ -1,3 +1,8 @@
+//Design_specs: Design a AND gate 
+//a = 0 ,b = 0, y = 0
+//a = 0 ,b = 1, y = 0
+//a = 1 ,b = 0, y = 0
+//a = 1 ,b = 1, y = 1
 `timescale 1ns / 1ps
 `default_nettype none
 module and_gate(
