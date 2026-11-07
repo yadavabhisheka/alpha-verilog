@@ -1,6 +1,4 @@
 # Verilog design and testbench 
 
-## 01_fundamentals 
-Some Fundamentals ckts.   
-- and_gate: and_gate simulation and design. Self testing tb using the truthtable of and_gate as a ref model.
+A repo made to show what i am actually leanring in verilog and all the ckts designing and most important how i testing it using self-testing testbench with things like exaustive, direct and random testing values.
 
